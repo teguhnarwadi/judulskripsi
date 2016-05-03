@@ -62,8 +62,8 @@
             </div>
 
             <h4>OR</h4>
-            <a href="redirect">Facebook</a>
-            <a href="">Twitter</a>
+            <a href="redirect/facebook">Facebook</a>
+            <a href="redirect/twitter">Twitter</a>
         </div>
     </div>
 </div>
