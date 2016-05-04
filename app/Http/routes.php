@@ -15,9 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Route::get('/', 'HomeController@welcome');
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
 Route::get('/redirect/{provider}', 'SocialAuthController@redirect');
 Route::get('/callback/{provider}', 'SocialAuthController@callback');
+
+Route::get('customer', 'CustomerController@index');
